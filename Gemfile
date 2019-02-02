@@ -22,8 +22,9 @@ group :development do
 end
 
 group :production do
-  gem 'pg', '0.20.0'
+  #gem 'pg', '0.20.0'
+  gem 'sqlite3',      '1.3.13'
 end
 
-# WindowsŠÂ‹«‚Å‚Ítzinfo-data‚Æ‚¢‚¤gem‚ğŠÜ‚ß‚é•K—v‚ª‚ ‚è‚Ü‚·
+# Windowsç”¨ã®è¨­å®š
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
